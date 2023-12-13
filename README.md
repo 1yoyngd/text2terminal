@@ -21,7 +21,7 @@ The setup process described below is for the Zsh shell. The steps can be adapted
    ```
    function q() {
     source /path/to/your/venv/bin/activate
-    python /path/to/your/code/main.py "$@"
+    python /path/to/your/project/main.py "$@"
     deactivate
    }
    ```
