@@ -17,15 +17,15 @@ The setup process described below is for the Zsh shell. The steps can be adapted
    ```
    vim ~/.zshrc
    ```
-3. Type the following function to the end of the file:
+3. Type the following function to the end of `zshrc` file:
    ```
    function q() {
     source /path/to/your/venv/bin/activate
-    python /Users/glebsamokhvalov/text2terminal/main.py "$@"
+    python /path/to/your/code/main.py "$@"
     deactivate
    }
    ```
-   You can replace "q" with any other keyword you want to use to call the translator. Save the file.
+   You can replace `"q"` with any other keyword you want to use to call the translator. Save the updated file.
 4. Source your saved file:
     ```
     source ~/.zshrc
