@@ -32,7 +32,7 @@ The setup process described below is for the Zsh shell. The steps can be adapted
     ```
 6. Give the access to your script using:
    ```
-   chmod +x /Users/glebsamokhvalov/text2terminal/main.py
+   chmod +x /path/to/your/project/main.py
    ```
 7. Now any time typing `q "your question"`. The python script will be pulled.
    
