@@ -34,5 +34,5 @@ The setup process described below is for the Zsh shell. The steps can be adapted
    ```
    chmod +x /Users/glebsamokhvalov/text2terminal/main.py
    ```
-
+7. Now any time typing `q "your question"`. The python script will be pulled.
    
