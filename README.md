@@ -34,5 +34,11 @@ The setup process described below is for the Zsh shell. The steps can be adapted
    ```
    chmod +x /path/to/your/project/main.py
    ```
-7. Now any time typing `q "your question"`. The python script will be pulled.
-   
+7. Set your `OPENAI_API_KEY` variable in .env file in the same folder where your project is.
+8. Now any time typing `q "your question"`. The python script will be pulled.
+
+
+## Examples
+1. q "List all the files on my Desktop"
+2. q "Remove nested directories"
+3. q "Force Quitting Apps"
