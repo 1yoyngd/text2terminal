@@ -6,7 +6,7 @@ The setup process described below is for the Zsh shell. The steps can be adapted
 
 ### Accessing the `.zshrc` File
 1. Open your terminal.
-2. To edit the `.zshrc` file, you can use either `nano` or `vim`:
+2. Open the `.zshrc` file, you can use either `nano` or `vim`:
 
    For `nano`, enter:
    ```
