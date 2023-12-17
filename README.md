@@ -34,7 +34,7 @@ The setup process described below is for the Zsh shell. The steps can be adapted
    ```
    chmod +x /path/to/your/project/main.py
    ```
-7. Set your `OPENAI_API_KEY` variable in .env file in the same folder where your project is.
+7. Set your `OPENAI_API_KEY` variable in .env file in the same folder where your project is and install openai and python-dotenv to your virtual enviroment.
 8. Now any time typing `q "your question"` - the python script will be pulled.
 
 
